@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#torso {
+  margin: 4vw 5%;
+  border: black solid 0.1vw;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* NAVIGATION */
+nav {
+  padding: 1.5vw 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 4vw;
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.nav-item {
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.nav-item:hover {
+  color: red;
+}
+
+.nav-right {
+  align-self: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  margin: 2vw;
+  font-size: 14px;
+}
